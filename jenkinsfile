@@ -1,12 +1,12 @@
 node {
     stage('Preparation') {
-       bat ''' call menu.bat '''
+       bat ''' ECHO HELLO '''
     }
     stage('Build') {
-        bat ''' call menu.bat '''
+        bat '''  '''
     }
     stage('Post build action') {
-        bat ''' call menu.bat '''
+        bat '''  '''
         
     }
     
