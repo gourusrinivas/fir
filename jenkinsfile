@@ -1,6 +1,6 @@
 node {
     stage('Preparation') {
-       bat ''' call [D:][Project][fir]menu.bat '''
+       bat ''' menu.bat '''
     }
     stage('Build') {
         bat '''  '''
