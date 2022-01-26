@@ -1,6 +1,6 @@
 node {
     stage('Preparation') {
-       bat ''' ECHO HELLO '''
+       bat ''' call D:\Project\fir\menu.bat '''
     }
     stage('Build') {
         bat '''  '''
